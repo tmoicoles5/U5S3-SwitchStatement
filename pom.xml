@@ -13,7 +13,7 @@
          </plugins>
     </build>
     <groupId>com.codedifferently</groupId>
-    <artifactId>U4S3-SwitchStatement</artifactId>
+    <artifactId>U5S3-SwitchStatement</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

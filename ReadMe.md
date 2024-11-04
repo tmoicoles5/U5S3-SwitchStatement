@@ -1,4 +1,4 @@
-# U4S3 Switch Statement
+# U5S3 Switch Statement
 
 * Part A - Foundations 5.3
 * Part B - Foundations Practice

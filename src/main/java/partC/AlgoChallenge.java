@@ -15,8 +15,14 @@ public class AlgoChallenge {
     */
 
     public static Boolean dogTrouble(boolean bulldogGrowl, boolean labGrowl) {
+        System.out.println(dogTrouble(true,true));
+        System.out.println(dogTrouble(false,false));
+        System.out.println(dogTrouble(true,false));
+        System.out.println((dogTrouble(false,true)));
 
-        return null;
+        return bulldogGrowl == labGrowl;
+
+
     }
 
     /* Problem 13
@@ -32,7 +38,13 @@ public class AlgoChallenge {
      */
 
     public static Boolean puppyCry(boolean crying, int hour) {
+        System.out.println(puppyCry(true, 6));
+        System.out.println(puppyCry(true, 21));
+        System.out.println(puppyCry(true, 15));
+        System.out.println(puppyCry(false, 6));
+        System.out.println(puppyCry(false, 22));
 
-        return null;
+        return crying && (hour < 7 || hour >20);
     }
+
 }
